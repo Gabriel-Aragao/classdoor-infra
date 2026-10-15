@@ -9,7 +9,8 @@ Este repositório centraliza toda a infraestrutura, scripts de automação, conf
 
 ## 📊 Acesso ao Grafana Loki (Logs)
 - **URL:** [https://logs.odominoapp.win](https://logs.odominoapp.win)
-- **Credenciais:** `admin` / `classdoor_secure_2026`
+- **Credenciais de Acesso:** `<<SOLICITAR_AO_CTO_GABRIEL>>`
+  *(Para obter o usuário e a senha administrativos do painel de logs, solicite diretamente ao CTO Gabriel-Aragao (`@domaragao`)).*
 
 ## 🌐 Arquitetura de Rede
 O tráfego externo chega via **Cloudflare Tunnel**, bate no **Nginx** na porta 80 da VPS, que faz o roteamento interno baseado no subdomínio:
